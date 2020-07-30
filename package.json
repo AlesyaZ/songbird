@@ -1,0 +1,63 @@
+{
+  "name": "songbird",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "lint:fix-staged": "eslint --fix",
+    "fix": "run-s prettier:format lint:fix",
+    "fix-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.+(js|jsx)": [
+      "npm run prettier:format",
+      "npm run lint:fix-staged"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlesyaZ/songbird.git"
+  },
+  "author": "Alesya Zarembo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlesyaZ/songbird/issues"
+  },
+  "homepage": "https://github.com/AlesyaZ/songbird#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-block-scoping": "^7.10.5",
+    "@babel/plugin-transform-classes": "^7.10.4",
+    "@babel/plugin-transform-template-literals": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.1.1",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
