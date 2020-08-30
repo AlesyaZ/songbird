@@ -1,0 +1,228 @@
+.random-bird {
+    display: flex;
+    align-items: center;
+    box-shadow: inset 1px 3px 65px 0px #C1C1C1;
+    margin-right: 11%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.random-bird-img img {
+    width: 170px;
+    height: 170px;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+.bird-conteiner_name-play {
+  display: flex;
+  flex-direction: column;
+  margin-left:40px;
+}
+
+.random-bird .player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #212527;
+  
+    .song {
+      user-select: none;
+      margin: 0 20px;
+      .song__title {
+        text-align: left;
+        margin: 0;
+        color: white;
+        font-family: "Permanent Marker", cursive;
+        font-weight: normal;
+        font-size: 3.5em;
+  
+        &:hover {
+          color: greenyellow;
+        }
+      }
+  
+      .song__artist {
+        margin: 0;
+        color: white;
+        font-family: "Rock Salt", cursive;
+        font-weight: normal;
+        font-size: 1em;
+  
+        &:hover {
+          color: greenyellow;
+          cursor: pointer;
+        }
+      }
+    }
+  
+    .controls {
+      flex-grow: 1;
+      margin: 0 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .player__button {
+      width: fit-content;
+      margin-bottom: 15px;
+      background-color: transparent;
+      border: none;
+  
+      &:focus {
+        outline: none;
+      }
+      &:hover {
+        cursor: pointer;
+        svg {
+          color: greenyellow;
+        }
+      }
+  
+      svg {
+        font-size: 4em;
+        color: white;
+      }
+    }
+  
+    .bar {
+      user-select: none;
+      width: 100%;
+      display: flex;
+      align-items: center;
+  
+      .bar__time {
+        color: white;
+        font-size: 16px;
+      }
+  
+      .bar__progress {
+        width: 30vw;
+        flex: 1;
+        border-radius: 5px;
+        margin: 0 20px;
+        height: 10px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+  
+        .bar__progress__knob {
+          position: relative;
+          height: 16px;
+          width: 16px;
+          border: 1.5px solid white;
+          border-radius: 50%;
+          background-color: orange;
+        }
+      }
+    }
+  
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+  
+      .controls {
+        width: 100%;
+        margin-top: 20px;
+      }
+  
+      .bar {
+        width: 90%;
+      }
+    }
+  
+    @media screen and (max-width: 500px) {
+      .song {
+        .song__title {
+          font-size: 2.5em;
+        }
+  
+        .song__artist {
+          font-size: 0.8em;
+        }
+      }
+    }
+  }
+  
+  .song__title{
+    color:#FEFCFC;
+  }
+
+  .play-birds{
+    margin-top: 15px;
+    display: flex;
+  }
+
+  .answers {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    box-shadow: inset 1px 3px 65px 0px #C1C1C1;
+    margin-right: 10px;
+    height: 100%;
+    border-radius: 7px;
+  }
+
+  .answers button{
+    color: white;
+    outline: none;
+    background: none;
+    border: none;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(104, 103, 103);
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 17px;
+    transition: .3s;
+    &:hover {
+      box-shadow: inset 1px 3px 65px 0px #ffffff;
+      color: #366B3B;
+  }
+  } 
+
+  .answer_error {
+    background-color: red;
+}
+  .answer_correct {
+    background-color: green;
+}
+
+.react-audio-player::-webkit-media-controls-panel,
+			audio::-webkit-media-controls-current-time-display,
+			audio::-webkit-media-controls-time-remaining-display,
+			audio::-webkit-media-controls-timeline
+      {
+				background: #7A9B74;
+        color: white;
+      }
+
+.react-audio-player {
+  background-color: none;
+  width: 50vw;
+  color: #366B3B;
+  outline: none;
+}
+
+.bird-play_info {
+  min-height: 276px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 1px 3px 65px 0px #C1C1C1;
+  width: 100%;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  margin-right:11%;
+}
+
+.bird-play_info p{
+  color: #111111;
+  font-family: 'Great Vibes', cursive;
+  font-size: 20px;
+}
