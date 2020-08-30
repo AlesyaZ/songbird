@@ -1,5 +1,5 @@
 import React from 'react';
-import birdsData from '../data';
+import DataBirds from '../data';
 
 import './index.scss';
 
@@ -16,18 +16,16 @@ const Header = (props) => {
             </h3>
             <ul className="group-birds">
                 {
-                    birdsData.map((category, i) => 
-                        <li key={category.family} 
-                            value={category.family} 
-                            className={`${i === stage ? 'active' : ''}`}>
-                        {category.family}
+                    DataBirds.map((dataBirds, init) => 
+                        <li key={dataBirds.family} 
+                            value={dataBirds.family} 
+                            className={`${init === stage ? 'active' : ''}`}>
+                        {dataBirds.family}
                     </li>)
                 }
             </ul>
             <h5 className="score">
-                Score:
-                {' '}
-                <span>{score}</span>
+                Score:<span>{score}</span>
             </h5>
         </div>
     );
