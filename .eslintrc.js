@@ -12,13 +12,17 @@ module.exports = {
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
-      Js: true,
     },
-    ecmaVersion: 11,
+    ecmaVersion: 6,
     sourceType: 'module',
   },
   plugins: [
+    'react-hooks',
+    'jsx-a11y',
+    'import',
     'react',
+    'import',
+    'prettier',
   ],
   rules: {
     'semi': 'error',
@@ -37,9 +41,19 @@ module.exports = {
     'no-console': 'error',
     'no-alert': 'error',
     'react/prop-types': 0,
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-filename-extension': [1, {
       'extensions': ['.js', '.jsx']
       }
     ]
   },
+  'settings': {
+    'import/resolver': {
+      'node': {
+        'paths': ['src']
+      }
+    }
+  },
+  'parser': 'babel-eslint'
 };
