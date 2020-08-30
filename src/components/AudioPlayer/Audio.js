@@ -4,7 +4,7 @@ import React from "react";
 import Play from "./Play";
 import Pause from "./Pause";
 import Bar from "./Bar";
-import birdsData from '../data';
+import DataBirds from '../data';
 
 import useAudioPlayer from './useAudioPlayer';
 
@@ -13,7 +13,7 @@ function Audio(props) {
     playAudio
   } = props;
   const { curTime, duration, playing, setPlaying, setClickedTime } = useAudioPlayer();
-  const audioBird = birdsData[0].data[1].audio;
+  const audioBird = DataBirds[0].data[1].audio;
   return (
     <div className="player">
       <audio id="audio">
