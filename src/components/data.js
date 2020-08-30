@@ -9,7 +9,7 @@ const DataBirds = [
           species: 'Melopsittacus undulatus',
           description: 'Особи отличаются шумом и болтливостью, довольно легко запоминают слова и выражения, которые повторяют много раз при «общении» с человеком и даже с другими домашними птицами. В большинстве случаев заученные слова и выражения повторяют без связной логики. Населяют полупустынные и степные местности, предпочитая участки с редкими деревьями. Эти попугайчики стремительны в полёте и изящны в движениях, хорошо ходят по земле и лазают по деревьям. Живут стаями. Стаи могут насчитывать от 20 до нескольких сот особей.',
           image: 'http://zoogalaktika.ru/assets/images/aves/psittaciformes/melopsittacus-undulatus/melopsittacus-undulatus_01.jpg',
-          audio: 'http://zoogalaktika.ru/assets/images/media/sounds/melopsittacus-undulatus.mp3',
+          audio: 'https://www.xeno-canto.org/sounds/uploaded/EHGWCIGILC/XC335525-budgerigar-snp1.mp3',
         },
         {
           id: 2,
@@ -17,7 +17,7 @@ const DataBirds = [
           species: 'Felis catus',
           description: 'Домашнее животное, одно из наиболее популярных (наряду с собакой) «животных-компаньонов». С точки зрения научной систематики, домашняя кошка — млекопитающее семейства кошачьих отряда хищных. Ранее домашнюю кошку нередко рассматривали как отдельный биологический вид. С точки зрения современной биологической систематики домашняя кошка является подвидом лесной кошки',
           image: 'http://zoogalaktika.ru/assets/images/mammalia/carnivora/felidae/felis-silvestris-catus/felis-silvestris-catus_09.jpg',
-          audio: 'http://zoogalaktika.ru/assets/images/media/sounds/felis-silvestris-catus.mp3',
+          audio: 'https://zvukipro.com/uploads/files/2017-08/1504025531_myaukane_koshki_-_myaukane_koshki.mp3',
         },
         {
           id: 3,
@@ -33,7 +33,7 @@ const DataBirds = [
           species: 'vitula eligans',
           description: 'оте­лив­шая­ся сам­ка круп­но­го ро­га­то­го ско­та, то есть домашнего быка. Прежде, чем стать коровой, самка быка является тёлкой (до первого оплодотворения), после оплодотворения до первых родов она называется нетелью.Коровы используются для получения потомства, а также молочной и мясной продукции',
           image: 'http://zoogalaktika.ru/assets/images/easy/pictures/cow_01.jpg',
-          audio: 'http://zoogalaktika.ru/assets/images/media/sounds/cow.mp3',
+          audio: 'https://zvukipro.com/uploads/files/2020-07/1595395371_dd699f7949bfe19.mp3',
         },
         {
           id: 5,
@@ -41,7 +41,7 @@ const DataBirds = [
           species: 'Ovis aries',
           description: 'Парнокопытное млекопитающее из рода баранов, семейства полорогих. Это животное уже в глубокой древности было одомашнено человеком, в основном благодаря густой шерсти и съедобному мясу.',
           image: 'http://zoogalaktika.ru/assets/images/mammalia/artiodactyla/ruminantia/caprinae/ovis-aries/ovis-aries_05.jpg',
-          audio: 'http://zoogalaktika.ru/assets/images/media/sounds/ovis-aries.mp3',
+          audio: 'https://zvukipro.com/uploads/files/2017-09/1504342524_zvuki-baranov-i-ovec.mp3',
         },
         {
           id: 6,
@@ -62,7 +62,7 @@ const DataBirds = [
           species: 'Melopsittacus undulatus',
           description: 'Особи отличаются шумом и болтливостью, довольно легко запоминают слова и выражения, которые повторяют много раз при «общении» с человеком и даже с другими домашними птицами. В большинстве случаев заученные слова и выражения повторяют без связной логики. Населяют полупустынные и степные местности, предпочитая участки с редкими деревьями. Эти попугайчики стремительны в полёте и изящны в движениях, хорошо ходят по земле и лазают по деревьям. Живут стаями. Стаи могут насчитывать от 20 до нескольких сот особей.',
           image: 'http://zoogalaktika.ru/assets/images/aves/psittaciformes/melopsittacus-undulatus/melopsittacus-undulatus_01.jpg',
-          audio: 'http://zoogalaktika.ru/assets/images/media/sounds/melopsittacus-undulatus.mp3',
+          audio: 'https://www.xeno-canto.org/sounds/uploaded/EHGWCIGILC/XC335525-budgerigar-snp1.mp3',
         },
         {
           id: 2,
@@ -86,7 +86,7 @@ const DataBirds = [
           species: 'Serinus canaria',
           description: 'Канарейка может отличать последовательности звуков, хранить в памяти и воспроизводить. Поэтому она может научиться присущему виду пению. Она может подражать звукам и последовательностям звуков других птиц, а также включать чужие шумы в своё пение.',
           image: 'http://zoogalaktika.ru/assets/images/aves/passeriformes/fringillidae/serinus-canaria/small/serinus-canaria_small_01.jpg',
-          audio: 'http://zoogalaktika.ru/assets/images/media/sounds/serinus-canaria.mp3',
+          audio: 'https://www.xeno-canto.org/sounds/uploaded/JXZFXAZWHY/XC485630-kanarek.mp3',
         },
         {
           id: 5,
@@ -123,7 +123,7 @@ const DataBirds = [
           species: 'Felis catus',
           description: 'Домашнее животное, одно из наиболее популярных (наряду с собакой) «животных-компаньонов». С точки зрения научной систематики, домашняя кошка — млекопитающее семейства кошачьих отряда хищных. Ранее домашнюю кошку нередко рассматривали как отдельный биологический вид. С точки зрения современной биологической систематики домашняя кошка является подвидом лесной кошки',
           image: 'http://zoogalaktika.ru/assets/images/mammalia/carnivora/felidae/felis-silvestris-catus/felis-silvestris-catus_09.jpg',
-          audio: 'http://zoogalaktika.ru/assets/images/media/sounds/felis-silvestris-catus.mp3',
+          audio: 'https://zvukipro.com/uploads/files/2017-08/1504025531_myaukane_koshki_-_myaukane_koshki.mp3',
         },
         {
           id: 3,
@@ -131,7 +131,7 @@ const DataBirds = [
           species: 'vitula eligans',
           description: 'оте­лив­шая­ся сам­ка круп­но­го ро­га­то­го ско­та, то есть домашнего быка. Прежде, чем стать коровой, самка быка является тёлкой (до первого оплодотворения), после оплодотворения до первых родов она называется нетелью.Коровы используются для получения потомства, а также молочной и мясной продукции',
           image: 'http://zoogalaktika.ru/assets/images/easy/pictures/cow_01.jpg',
-          audio: 'http://zoogalaktika.ru/assets/images/media/sounds/cow.mp3',
+          audio: 'https://zvukipro.com/uploads/files/2020-07/1595395371_dd699f7949bfe19.mp3',
         },
         {
           id: 4,
@@ -229,7 +229,7 @@ const DataBirds = [
           species: 'Ovis aries',
           description: 'Парнокопытное млекопитающее из рода баранов, семейства полорогих. Это животное уже в глубокой древности было одомашнено человеком, в основном благодаря густой шерсти и съедобному мясу.',
           image: 'http://zoogalaktika.ru/assets/images/mammalia/artiodactyla/ruminantia/caprinae/ovis-aries/ovis-aries_05.jpg',
-          audio: 'http://zoogalaktika.ru/assets/images/media/sounds/ovis-aries.mp3',
+          audio: 'https://zvukipro.com/uploads/files/2017-09/1504342524_zvuki-baranov-i-ovec.mp3',
         },
         {
           id: 3,
